@@ -1,0 +1,57 @@
+.contato {
+  height: 500px;
+  background-color: #af2f2f;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.contato h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+.form-logo {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-logo form input {
+  width: 494px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+}
+
+.form-logo form button {
+  width: 223px;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #711d1d;
+  font-family: "Poppins", sans-serif;
+  align-self: center;
+}
+
+.form-logo form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-logo form textarea {
+  width: 494px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

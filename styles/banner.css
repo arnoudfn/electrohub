@@ -1,0 +1,41 @@
+.box {
+  height: 60vh;
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+
+.box h2 {
+  font-size: 2rem;
+}
+
+.box img {
+  height: 40%;
+}
+
+.btn {
+  width: 130px;
+  height: 38px;
+  background-color: #af2f2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  transition: 0.3s;
+
+  font-size: 0.8rem;
+}
+
+.btn:hover {
+  background-color: #711d1d;
+}

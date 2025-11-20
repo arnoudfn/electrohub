@@ -1,0 +1,103 @@
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #1f1812;
+}
+
+.products h2 {
+  font-size: 4rem;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #711d1d;
+}
+
+.destaque {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: auto;
+  background: #1f1812;
+}
+
+.destaque .cards {
+  width: 347px;
+  height: auto;
+  border-radius: 3px;
+  /* display: flex; */
+}
+
+.cards > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+  padding: 20px;
+  gap: 10px;
+  background-color: #ffffff;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.cards::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 28px;
+  background-color: #af2f2f;
+  border-bottom-right-radius: 5px;
+}
+
+.cards div span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cards div p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.descricao {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+  align-items: center;
+  text-align: left;
+}
+.descricao a {
+  text-decoration: none;
+  background-color: #af2f2f;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  color: white;
+}
+.descricao a:hover {
+  background-color: #711d1d;
+  transition: 0.3s;
+}
